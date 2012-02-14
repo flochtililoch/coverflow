@@ -13,3 +13,6 @@
 [submodule "vendor/pbakaus/transformie"]
 	path = vendor/pbakaus/transformie
 	url = https://github.com/pbakaus/transformie.git
+[submodule "vendor/brandonaaron/jquery-mousewheel"]
+	path = vendor/brandonaaron/jquery-mousewheel
+	url = https://github.com/brandonaaron/jquery-mousewheel.git

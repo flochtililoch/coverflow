@@ -10,16 +10,18 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-  <meta http-equiv="imagetoolbar" content="false" />
-  <link rel="stylesheet" href="css/h5bp<em></em>.css">
+  <meta http-equiv="imagetoolbar" content="false">
+  <link rel="stylesheet" href="css/h5bp.css">
+  <link rel="stylesheet" href="../vendor/addyosmani/jquery-coverflow-ii/css/jquery-ui-1.8.5.custom.css">
+  <link rel="stylesheet" href="../vendor/addyosmani/jquery-coverflow-ii/css/demos.css">
   <!-- IE9 Specific -->
-  <meta name="application-name" content="Sample Title" />
-  <meta name="msapplication-tooltip" content="A description of what this site does." />
-  <meta name="msapplication-starturl" content="http://www.example.com/index.html?pinned=true" />
+  <meta name="application-name" content="Sample Title">
+  <meta name="msapplication-tooltip" content="A description of what this site does.">
+  <meta name="msapplication-starturl" content="http://www.example.com/index.html?pinned=true">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="" />
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
   <script src="js/modernizr.js"></script>
 </head>
@@ -32,11 +34,46 @@
   </header>
   <div role="main">
 
+    <div class="pageWrapper">
+    	<div class="demo">
+    		<div class="wrapper">
+    			<div id="coverflow">
+    	      <img src="../vendor/addyosmani/jquery-coverflow-ii/img/gorillaz-plasticbeach.jpg" data-artist="Gorillaz" data-album="Plastic Beach"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/kingsofleon-comearoundsunshine.jpg" data-artist="Kings Of Leon" data-album="Come Around Sunshine"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/kidrock-bornfree.jpg" data-artist="Kid Rock" data-album="Born Free"/>		
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/recovery-recovery.jpg" data-artist="Eminem" data-album="Recovery"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/lilwayne-iamnotahumanbeing.jpg" data-artist="Lil Wayne" data-album="I Am Not A Human Being"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/taylorswift-speaknow.jpg" data-artist="Taylor Swift" data-album="Speak Now"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/thebandperry-thebandperry.jpg" data-artist="The Band Perry" data-album="The Band Perry"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/maroon5-handsallover.jpg" data-artist="Maroon 5" data-album="Hands All Over"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/mychemicalromance-dangerdays.jpg" data-artist="My Chemical Romance" data-album="Danger Days"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/ironmaiden-thefinalfrontier.jpg" data-artist="Iron Maiden" data-album="The Final Frontier"/>
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/order of the black - black label society.jpg" data-artist="Order Of The Black" data-album="Black Label Society"/>	
+    				<img src="../vendor/addyosmani/jquery-coverflow-ii/img/usher-raymondvraymond.jpg" data-artist="Usher" data-album="Raymond V Raymond"/>
+    			</div>
+    		</div>
+    		<div id="slider"></div>
+    	</div>
+    </div>
+
   </div>
   <footer>
 
   </footer>
   <script src="js/jquery.js"></script>
-  <!-- end scripts -->
+  <script src="js/jquery-ui/jquery.ui.core.js"></script>
+  <script src="js/jquery-ui/jquery.ui.widget.js"></script>
+    
+  <script src="js/jquery-ui/jquery.ui.mouse.js"></script>
+  <script src="js/jquery-ui/jquery.ui.slider.js"></script>
+    
+	<script src="js/jquery.mousewheel.js"></script>
+	
+	<script src="js/sylvester.js"></script>
+  <script src="js/transformie.js"></script>
+	    
+	<script src="js/ui.coverflow.js"></script>
+	
+	<script src="js/script.js"></script>
 </body>
 </html>

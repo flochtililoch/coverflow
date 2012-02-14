@@ -1,0 +1,1 @@
+../../../vendor/jquery/jquery-ui/ui/jquery.effects.fade.js
