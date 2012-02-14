@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="imagetoolbar" content="false">
   <link rel="stylesheet" href="css/h5bp.css">
-  <link rel="stylesheet" href="css/ui.coverflow.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- IE9 Specific -->
   <meta name="application-name" content="Coverflow">
   <meta name="msapplication-tooltip" content="A simple coverflow prototype that include keyboard and mousewheel navigation">
@@ -53,22 +53,25 @@
   <footer>
 
   </footer>
+  <!-- Required -->
   <script src="js/jquery.js"></script>
-  <script src="js/jquery-ui/jquery.ui.core.js"></script>
-  <script src="js/jquery-ui/jquery.ui.widget.js"></script>
-  
-    <script src="js/jquery-ui/jquery.effects.core.js"></script>
-    
-  <script src="js/jquery-ui/jquery.ui.mouse.js"></script>
-  <script src="js/jquery-ui/jquery.ui.slider.js"></script>
-    
-	<script src="js/jquery.mousewheel.js"></script>
-	
-	<script src="js/sylvester.js"></script>
-  <script src="js/transformie.js"></script>
-	    
-	<script src="js/ui.coverflow.js"></script>
-	
-	<script src="js/script.js"></script>
+  <script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.coverflow.js"></script>
+	<!-- Following scripts are required only if slider / mousewheel support needed -->
+  <script src="js/jquery.ui.mouse.js"></script>
+  <script src="js/jquery.ui.slider.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+	<script>
+	  $(document).ready(function(){
+      $('#coverflow').coverflow({
+        slider: $('#slider'),
+        item: 0,              // First item to display
+        offset: 4,            // Scroll by X items when page is loaded
+        matrixRatio: -0.05,   // Surrounding items' orientation
+        scaleRatio: 0.9,      // Depth difference between main item and surrounding ones
+        spacing: 150          // Space between items
+      });  
+  });
+	</script>
 </body>
 </html>

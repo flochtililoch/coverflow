@@ -1,1 +1,0 @@
-../../../vendor/jquery/jquery-ui/ui/jquery.effects.pulsate.js

@@ -7,12 +7,6 @@
 [submodule "vendor/jquery/jquery-ui"]
 	path = vendor/jquery/jquery-ui
 	url = https://github.com/jquery/jquery-ui.git
-[submodule "vendor/jcoglan/sylvester"]
-	path = vendor/jcoglan/sylvester
-	url = https://github.com/jcoglan/sylvester.git
-[submodule "vendor/pbakaus/transformie"]
-	path = vendor/pbakaus/transformie
-	url = https://github.com/pbakaus/transformie.git
 [submodule "vendor/brandonaaron/jquery-mousewheel"]
 	path = vendor/brandonaaron/jquery-mousewheel
 	url = https://github.com/brandonaaron/jquery-mousewheel.git

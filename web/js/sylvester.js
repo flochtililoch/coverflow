@@ -1,1 +1,0 @@
-../../vendor/jcoglan/sylvester/site/sylvester.js
