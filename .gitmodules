@@ -1,6 +1,3 @@
-[submodule "vendor/addyosmani/jquery-coverflow-ii"]
-	path = vendor/addyosmani/jquery-coverflow-ii
-	url = https://github.com/addyosmani/jqueryui-coverflow-ii.git
 [submodule "vendor/h5bp/html5-boilerplate"]
 	path = vendor/h5bp/html5-boilerplate
 	url = https://github.com/h5bp/html5-boilerplate.git
