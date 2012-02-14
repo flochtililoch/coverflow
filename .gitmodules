@@ -1,9 +1,0 @@
-[submodule "vendor/h5bp/html5-boilerplate"]
-	path = vendor/h5bp/html5-boilerplate
-	url = https://github.com/h5bp/html5-boilerplate.git
-[submodule "vendor/jquery/jquery-ui"]
-	path = vendor/jquery/jquery-ui
-	url = https://github.com/jquery/jquery-ui.git
-[submodule "vendor/brandonaaron/jquery-mousewheel"]
-	path = vendor/brandonaaron/jquery-mousewheel
-	url = https://github.com/brandonaaron/jquery-mousewheel.git
