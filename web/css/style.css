@@ -1,0 +1,37 @@
+#wrapper {
+	height: 650px;
+	width: 800px;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;	
+}
+
+#coverflow {
+	display: inline-block;
+	height: 600px;
+	width: 2600px;
+	padding: 42px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 50px;
+}
+
+#coverflow img {
+	width: 260px;
+	height: 260px;
+	float: left;
+	position: relative;
+	margin: -35px;
+	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(1, rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.1)));
+}
+
+.ui-slider-handle {
+	width: 20px;
+	height: 10px;
+	margin-left: 5px;
+	background-color: darkgray;
+	display: block;
+	position: absolute
+}
