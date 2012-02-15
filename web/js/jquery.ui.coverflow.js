@@ -132,7 +132,7 @@
           if (item >= 0 && item <= length)
           {
             // Edge cases
-            if (! (item === length && delta < 0 ||  item === 0 && delta > 0))
+            if (! (item === length && delta < 0 || item === 0 && delta > 0))
             {
               event.preventDefault();
             }
