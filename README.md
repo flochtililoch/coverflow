@@ -14,14 +14,12 @@ Requirements
 
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate "HTML5 Boilerplate on Github") (included as submodule)
 * [jQuery UI](https://github.com/jquery/jquery-ui.git "jQuery UI on Github") - Widget component only
-* HTML5 Boilerplate[HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate "HTML5 Boilerplate on Github")
-* HTML5 Boilerplate[HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate "HTML5 Boilerplate on Github")
 
 
 Optional (included as submodules)
 ---------------------
 
-Slider support :  (part of [jQuery UI](https://github.com/jquery/jquery-ui.git "jQuery UI on Github"), included in requirements)
+Slider support :  (part of [jQuery UI](https://github.com/jquery/jquery-ui "jQuery UI on Github"), included in requirements)
 
 * jQuery UI Mouse Component
 * jQuery UI Slider Component
