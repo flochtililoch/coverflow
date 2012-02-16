@@ -7,3 +7,6 @@
 [submodule "vendor/brandonaaron/jquery-mousewheel"]
 	path = vendor/brandonaaron/jquery-mousewheel
 	url = https://github.com/brandonaaron/jquery-mousewheel.git
+[submodule "vendor/sgentile/jquery.swipe"]
+	path = vendor/sgentile/jquery.swipe
+	url = https://github.com/flochtililoch/jquery.swipe
