@@ -1,0 +1,1 @@
+../../vendor/sgentile/jquery.swipe/jquery.swipe.js

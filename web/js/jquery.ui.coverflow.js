@@ -54,6 +54,11 @@
       spacing: 100,
       keyboard: true,
       mousewheel: true,
+      swipe: true,
+      minSwipeLength: 65,
+			minMouseSwipeLength: 100,
+			preventDefault: false,
+			includeMouseSwipe: true,
       slider: false
     },
 
@@ -67,10 +72,7 @@
       this.itemHeight = this.items.height();
       this.duration = o.duration;
       this.current = o.item;
-      this.items.bind(o.trigger, function() {
-        self.select(this);
-      });
-
+      
       // Center the actual parent's left side within it's parent
       this.element.css(
         this.props[2],
@@ -139,6 +141,48 @@
           }
         });
       }
+      
+      // Enabled only if Swipe library present
+      if (this.options.swipe && $.fn.swipe !== undefined) {
+        this.items.swipe({
+          minSwipeLength: this.options.minSwipeLength,
+    			minMouseSwipeLength: this.options.minMouseSwipeLength,
+    			preventDefault: this.options.preventDefault,
+    			includeMouseSwipe: this.options.includeMouseSwipe,
+    			swiped: function (e, ui) {
+    			  this.swiped = true;
+    			  event.preventDefault();
+						event.stopPropagation();
+    			  var current = self.current;
+            if (ui.swipeDirection === 'right') {
+              if (current > 0) {
+                current--;
+                self.select(current, true);
+              }
+            } else {
+              if (ui.swipeDirection === 'left') {
+                if (current < self.element.find(self.options.items).length - 1) {
+                  current++;
+                  self.select(current, true);
+                }
+              }
+            }
+    			}
+    		});
+      }
+      
+      // Handle click on items
+      this.items.bind(o.trigger, function() {
+        if(this.swiped === true)
+        {
+          this.swiped = false;
+        }
+        else
+        {
+          self.select(this);
+        }
+      });
+      
       
       // Enable keyboard navigation
       if (this.options.keyboard) {
