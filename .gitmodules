@@ -9,4 +9,4 @@
 	url = https://github.com/brandonaaron/jquery-mousewheel.git
 [submodule "vendor/sgentile/jquery.swipe"]
 	path = vendor/sgentile/jquery.swipe
-	url = https://github.com/flochtililoch/jquery.swipe
+	url = https://github.com/sgentile/jquery.swipe
