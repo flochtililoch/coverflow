@@ -13,7 +13,7 @@ Requirements
 * jQuery 1.7.1
 
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate "HTML5 Boilerplate on Github") (included as submodule)
-* [jQuery UI](https://github.com/jquery/jquery-ui.git "jQuery UI on Github") - Widget component only
+* [jQuery UI](https://github.com/jquery/jquery-ui "jQuery UI on Github") - Widget component only
 
 
 Optional (included as submodules)
